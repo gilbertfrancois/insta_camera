@@ -1,5 +1,9 @@
 # Instant Camera
 
+_Work in progress_
+
+Instant camera, build with a Raspberry Pi.
+
 ## Printer
 
 Connect the thermal nano printer as follows:
