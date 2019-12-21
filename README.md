@@ -1,4 +1,4 @@
-# Experimental instant camera
+# Instant Camera
 
 ## Printer
 
@@ -7,11 +7,11 @@ Connect the thermal nano printer as follows:
 | printer | RPi    |
 |---------|--------|
 | VH      | 5V     |
-| TX      | 15 (optional) |
+| TX      | 15 (optional, needs resistor!) |
 | RX      | 14     |
 | GND     | GND    |
 
-In `raspi-config` set Serial to True. Use `/dev/serial0` to access the printer. 
+In `raspi-config` set Serial Port to True, Serial Console to False. Use `/dev/serial0` to access the printer. 
 You can test it with:
 
 ```bash
